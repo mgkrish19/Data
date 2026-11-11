@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Audit travel blog posts on a WordPress site for booking and fare details.
 
-goAISEO publishes articles automatically. This script reads the site's public
+Get Auto SEO publishes articles automatically. This script reads the site's public
 WordPress REST API and flags posts that are missing the details that set this
 blog apart from YouTube videos: how to book tickets, fares, a budget breakdown,
 and a recent "fares checked" date.

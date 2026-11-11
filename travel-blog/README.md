@@ -1,12 +1,12 @@
 # Travel blog maintenance kit
 
 A budget travel blog on Hostinger WordPress, with articles written automatically
-by goAISEO. What sets it apart from YouTube travel videos: every post gives
+by Get Auto SEO. What sets it apart from YouTube travel videos: every post gives
 **ticket booking steps, fares and a full budget breakdown**.
 
 | File | What it is for |
 |---|---|
-| `goaiseo-article-rules.md` | Instructions to paste into goAISEO, and the checklist to run before a post goes live |
+| `getautoseo-article-rules.md` | Instructions to paste into Get Auto SEO, and the checklist to run before a post goes live |
 | `templates/trip-post-template.html` | Block editor template with fare tables, booking steps and a budget table |
 | `tools/audit_posts.py` | Checks every published post for missing booking info, fares, stale prices and AI leftovers |
 
@@ -31,7 +31,7 @@ that needs work, worst first. A post is flagged when it has:
 
 **Weekly**
 - Run the audit and fix or unpublish the worst posts.
-- Review new goAISEO drafts with the checklist in `goaiseo-article-rules.md`.
+- Review new Get Auto SEO drafts with the checklist in `getautoseo-article-rules.md`.
 - Update WordPress core, plugins and themes, and check for vulnerabilities (Hostinger connector).
 - Check the site loads, SSL is valid, and there are no 404s in Google Search Console.
 

@@ -1,6 +1,6 @@
-# goAISEO article rules
+# Get Auto SEO article rules
 
-Paste the block below into goAISEO's custom instructions (or "additional prompt")
+Paste the block below into Get Auto SEO's custom instructions (or "additional prompt")
 field so every auto-written article includes the booking and fare details that
 YouTube travel videos leave out.
 
@@ -38,7 +38,7 @@ Rules:
 
 ## Before a post goes live
 
-goAISEO can publish straight to WordPress. Set it to publish as **Draft**
+Get Auto SEO can publish straight to WordPress. Set it to publish as **Draft**
 (or Pending Review) instead, then for each draft:
 
 - [ ] Prices checked on the official site today; update the "Fares checked on" date
