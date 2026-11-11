@@ -8,6 +8,7 @@ by Get Auto SEO. What sets it apart from YouTube travel videos: every post gives
 |---|---|
 | `getautoseo-article-rules.md` | Instructions to paste into Get Auto SEO, and the checklist to run before a post goes live |
 | `templates/trip-post-template.html` | Block editor template with fare tables, booking steps and a budget table |
+| `pages/` | Ready-to-paste Disclaimer, Terms and Contact text, plus `FIX-STEPS.md` for removing theme demo content |
 | `tools/audit_posts.py` | Checks every published post for missing booking info, fares, stale prices and AI leftovers |
 
 ## Audit your posts
