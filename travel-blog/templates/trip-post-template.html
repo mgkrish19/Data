@@ -1,0 +1,83 @@
+<!--
+  Trip post template for the WordPress block editor.
+  How to use: open a post, click the three dots at the top right, choose
+  "Code editor", paste this, then switch back to "Visual editor".
+  Replace every [BRACKETED] value. Keep the "Fares checked on" line current;
+  the audit script flags posts whose fares are over 90 days old.
+-->
+
+<!-- wp:paragraph {"className":"trip-summary"} -->
+<p class="trip-summary"><strong>Trip at a glance:</strong> [DESTINATION] in [N] days from [STARTING CITY], about <strong>[CURRENCY][TOTAL] per person</strong>. Best time: [MONTHS]. <em>Fares checked on [DD Month YYYY].</em></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>How to reach [DESTINATION]</h2>
+<!-- /wp:heading -->
+
+<!-- wp:table {"className":"fare-table"} -->
+<figure class="wp-block-table fare-table"><table><thead><tr><th>Mode</th><th>Route</th><th>Duration</th><th>Fare (one way)</th><th>Where to book</th></tr></thead><tbody><tr><td>Train</td><td>[FROM] to [TO], [TRAIN NAME / NUMBER]</td><td>[HOURS]</td><td>Sleeper [₹___] / 3AC [₹___]</td><td>[Official site or app]</td></tr><tr><td>Bus</td><td>[FROM] to [TO]</td><td>[HOURS]</td><td>[₹___] to [₹___]</td><td>[Operator or app]</td></tr><tr><td>Flight</td><td>[FROM airport] to [TO airport]</td><td>[HOURS]</td><td>from [₹___]</td><td>[Airline site]</td></tr></tbody></table><figcaption>Fares checked on [DD Month YYYY]. Prices change with season and demand.</figcaption></figure>
+<!-- /wp:table -->
+
+<!-- wp:heading -->
+<h2>How to book tickets, step by step</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list {"ordered":true} -->
+<ol><li>Go to [OFFICIAL BOOKING SITE / APP] and sign in or create an account.</li><li>Enter [FROM] and [TO], pick your date, and choose [CLASS / SEAT TYPE].</li><li>[Any ID, quota, or document needed, e.g. Tatkal opens at 10 AM a day before].</li><li>Pay with UPI, card, or net banking. Save the e-ticket or screenshot it.</li><li>[Cancellation and refund rule in one line].</li></ol>
+<!-- /wp:list -->
+
+<!-- wp:heading -->
+<h2>Entry tickets and local fares</h2>
+<!-- /wp:heading -->
+
+<!-- wp:table {"className":"fare-table"} -->
+<figure class="wp-block-table fare-table"><table><thead><tr><th>Place / service</th><th>Price</th><th>Timings</th><th>How to pay / book</th></tr></thead><tbody><tr><td>[ATTRACTION]</td><td>Adult [₹___], child [₹___], foreigner [₹___]</td><td>[OPEN to CLOSE, closed on DAY]</td><td>[Online link / counter]</td></tr><tr><td>Local transport</td><td>Auto [₹___], cab [₹___], bike rent [₹___ per day]</td><td>-</td><td>[App or stand]</td></tr></tbody></table></figure>
+<!-- /wp:table -->
+
+<!-- wp:heading -->
+<h2>Where to stay on a budget</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul><li><strong>Hostel / dorm:</strong> [₹___] per night, [AREA]</li><li><strong>Budget hotel:</strong> [₹___] per night, [AREA]</li><li><strong>Mid-range:</strong> [₹___] per night, [AREA]</li></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading -->
+<h2>Day-by-day itinerary</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><strong>Day 1:</strong> [PLAN]. <strong>Day 2:</strong> [PLAN]. <strong>Day 3:</strong> [PLAN].</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>Total budget per person</h2>
+<!-- /wp:heading -->
+
+<!-- wp:table {"className":"fare-table budget-table"} -->
+<figure class="wp-block-table fare-table budget-table"><table><thead><tr><th>Expense</th><th>Budget</th><th>Comfort</th></tr></thead><tbody><tr><td>Travel (return)</td><td>[₹___]</td><td>[₹___]</td></tr><tr><td>Stay ([N] nights)</td><td>[₹___]</td><td>[₹___]</td></tr><tr><td>Food</td><td>[₹___]</td><td>[₹___]</td></tr><tr><td>Entry tickets and local transport</td><td>[₹___]</td><td>[₹___]</td></tr><tr><td><strong>Total</strong></td><td><strong>[₹___]</strong></td><td><strong>[₹___]</strong></td></tr></tbody></table></figure>
+<!-- /wp:table -->
+
+<!-- wp:heading -->
+<h2>Money-saving tips</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul><li>[TIP 1]</li><li>[TIP 2]</li><li>[TIP 3]</li></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading -->
+<h2>FAQs</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><strong>How much does a [N]-day [DESTINATION] trip cost?</strong> About [₹___] per person on a budget, including travel from [CITY].</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>When should I book tickets?</strong> [ANSWER].</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"fontSize":"small"} -->
+<p class="has-small-font-size"><em>Fares checked on [DD Month YYYY] from official sources. Prices change often, so confirm on the booking site before you pay. Seen an updated price? Tell us in the comments.</em></p>
+<!-- /wp:paragraph -->
